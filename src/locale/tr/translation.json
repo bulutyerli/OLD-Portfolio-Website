@@ -15,7 +15,7 @@
     "title": "Projeler",
     "projects": {
       "tailwish": {
-        "desc": "Nuvola Coffee Shop'ta kullanıcılar ürünleri sepetlerine ekleyebilir ve satın alma işlemleri gerçekleştirebilir. Kimlik doğrulama sağlayıcısı olarak Supabase, veritabanı olarak PostgreSQL kullanılmaktadır. Alışveriş sepeti durumu Redux ile yönetilmektedir. Kullanıcılar, kargo adreslerini, şifrelerini veya e-posta adreslerini değiştirebilir ve unutulan şifrelerini yeniden talep edebilirler.",
+        "desc": "Tailwish evcil kedi ve köpek sahiplendirme sitesi. Kullanıcılar yeni sahiplendirme ilanları açabilirler. Topluluk bölümünde birbirlerine evcil hayvanlar hakkında sorular sorup, yanıtlayabilirler. Ayrıca beğendikleri ilanları favorilerine ekleyebilir ve ilan sahiplerine özel mesaj yollayabilirler. Türler bölümünde ise 60'dan fazla kedi ve 120'den fazla köpek türü hakkında fotoğraf ve bilgilere ulaşabilirler. Kullanıclar, kullanıcı adı ve şifreleri ile ya da Google hesapları ile giriş yapabilirler, kullanıcı isimlerini ve profil fotoğraflarını değiştirebilirler. Tüm yeni ilan ve sorular yayınlanmadan önce onay için admin'e gönderilir.",
         "summary": "Tailwish, birçok özellikle donatılmış tamamen işlevsel bir evcil hayvan sahiplendirme platformudur."
       },
       "nuvolacoffee": {

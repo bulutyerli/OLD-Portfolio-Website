@@ -15,7 +15,7 @@
     "title": "Projects",
     "projects": {
       "tailwish": {
-        "desc": "Tailwish evcil kedi ve köpek sahiplendirme sitesi. Kullanıcılar yeni sahiplendirme ilanları açabilirler. Topluluk bölümünde birbirlerine evcil hayvanlar hakkında sorular sorup, yanıtlayabilirler. Ayrıca beğendikleri ilanları favorilerine ekleyebilir ve ilan sahiplerine özel mesaj yollayabilirler. Türler bölümünde ise 60'dan fazla kedi ve 120'den fazla köpek türü hakkında fotoğraf ve bilgilere ulaşabilirler. Kullanıclar, kullanıcı adı ve şifreleri ile ya da Google hesapları ile giriş yapabilirler, kullanıcı isimlerini ve profil fotoğraflarını değiştirebilirler. Tüm yeni ilan ve sorular yayınlanmadan önce onay için admin'e gönderilir.",
+        "desc": "Tailwish is a website where people can adopt cats or dogs. Users can create adoption listings, ask questions about pets, or answer community questions. Gain information about more than 60 cat and 120 dog breeds. Add listings to your 'favorites' or send direct messages to adopt listing owners. Users can log in via credentials or using their Google accounts, update their names, and profile pictures. All new listings and questions first go to the admin for approval.",
         "summary": "Tailwish fully working pet adoption platform with many features."
       },
       "nuvolacoffee": {
