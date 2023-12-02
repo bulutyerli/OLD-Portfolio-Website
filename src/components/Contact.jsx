@@ -25,9 +25,9 @@ const Contact = () => {
       setError("Please enter a valid email address.");
       return;
     }
-    const serviceId = import.meta.env.REACT_APP_SERVICE_ID;
-    const templateId = import.meta.env.REACT_APP_TEMPLATE_ID;
-    const userId = import.meta.env.REACT_APP_USER_ID;
+    const serviceId = import.meta.env.VITE_SERVICE_ID;
+    const templateId = import.meta.env.VITE_TEMPLATE_ID;
+    const userId = import.meta.env.VITE_USER_ID;
     const templateParams = {
       name,
       email,
@@ -37,8 +37,15 @@ const Contact = () => {
     try {
       setError(false);
       setSuccess(false);
-      await emailjs.send(serviceId, templateId, templateParams, userId);
-      setSuccess(true);
+      const res = await emailjs.send(
+        serviceId,
+        templateId,
+        templateParams,
+        userId
+      );
+      if (res.status === 200) {
+        setSuccess(true);
+      }
     } catch (error) {
       setError(true);
     }
