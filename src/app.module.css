@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.element {
+  min-height: 100vh;
+  max-width: 1440px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

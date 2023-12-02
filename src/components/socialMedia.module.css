@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  gap: 5rem;
+  min-height: 6rem;
+}
+
+.socialLink,
+.socialLinkRight {
+  transition: transform 0.3s, scale 0.3s;
+}
+
+.socialLink:hover {
+  transform: rotate(-5deg) scale(1.1);
+}
+
+.socialLinkRight:hover {
+  transform: rotate(5deg) scale(1.1);
+}
+
+.bigIcons {
+  transition: transform 0.3s, scale 0.3s;
+  align-self: center;
+}
+
+.bigIcons:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

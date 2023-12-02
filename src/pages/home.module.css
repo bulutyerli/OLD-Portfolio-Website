@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 5rem;
+  max-width: 30rem;
+}
+
+.greeting {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--neutral-900);
+  padding-top: 2rem;
+  line-height: 5rem;
+  box-sizing: border-box;
+  min-height: 20rem;
+}
+
+.nameHighlight {
+  color: var(--secondary-color);
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 4rem;
+  color: var(--secondary-color);
+}
+
+.darkMode {
+  .greeting {
+    color: var(--neutral-500);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 1rem;
+  }
+  .greeting {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+}

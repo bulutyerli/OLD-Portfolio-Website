@@ -1,0 +1,51 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "Who Am I?",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "p1": "Hi,",
+    "p2": "I'm",
+    "p3": "a Front-End",
+    "p4": "Developer."
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": {
+      "tailwish": {
+        "desc": "Tailwish is a website where people can adopt cats or dogs. Users can create adoption listings, ask questions about pets, or answer community questions. Gain information about more than 60 cat and 120 dog breeds. Add listings to your 'favorites' or send direct messages to adopt listing owners. Users can log in via credentials or using their Google accounts, update their names, and profile pictures. All new listings and questions first go to the admin for approval.",
+        "summary": "Tailwish fully working pet adoption platform with many features."
+      },
+      "nuvolacoffee": {
+        "desc": "At Nuvola Coffee Shop, users can add products to their shopping cart and make purchases. Supabase used as an authentication provider and PostgreSQL as the database. Shopping cart state managed with Redux. Users can change their shipping address, password or email address also ask for a new password if forgotten.",
+        "summary": "An imaginary coffee shop, with online shopping features"
+      }
+    },
+    "detailButton": "Details",
+    "visitLink": "Visit"
+  },
+  "about": {
+    "title": "Who Am I?",
+    "content": {
+      "p1": "Hello, I'm Bulut Yerli, based in Istanbul, Turkey. I spent 12 years working in logistics and warehouse management for major aviation companies. This experience provided me with a solid grounding in the corporate world and taught me how to handle high-pressure, time-critical tasks, a common feature of the aviation industry. It was also during this time that I developed my teamwork skills.",
+      "p2": "However, my love for computers and software goes way back to my childhood. Circumstances led me on a different path for a while, but I eventually made the life-changing choice to shift from aviation to pursue a career as a programmer, a field that's always held a special place in my heart.",
+      "p3": "I embarked on this new chapter by earning a two-year degree in computer programming from a university. Today, I'm continually honing my skills, with a strong emphasis on web development, and exploring various aspects of the software world. My aspirations extend beyond merely earning a livelihood through programming. I'm wholeheartedly committed to reaching distinctive milestones in this field and making a lasting impact in the digital realm, a journey that genuinely ignites my passion."
+    }
+  },
+  "contact": {
+    "title": {
+      "p1": "Looking to collaborate or",
+      "p2": "have something on your mind?",
+      "p3": "Let's",
+      "p4": "Connect!"
+    }
+  },
+  "form": {
+    "name": "Your Name",
+    "email": "E-Mail",
+    "message": "Your Message",
+    "button": "Send"
+  }
+}

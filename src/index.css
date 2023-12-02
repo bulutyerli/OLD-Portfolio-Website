@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+  font-family: "greet";
+  src: url("./assets/fonts/FugazOne-Regular.ttf") format("truetype");
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  --primary-color: #023047;
+  --primary-light: #b6ceda;
+  --primary-dark: #041b26;
+  --secondary-color: #fb8500;
+  --secondary-light: #f3e9df;
+  --secondary-dark: #030201;
+  --neutral-900: #1c2022;
+  --neutral-800: #2f3437;
+  --neutral-700: #6d7578;
+  --neutral-600: #858b8e;
+  --neutral-500: #b7bbbd;
+  --neutral-400: #d5d7d7;
+  --neutral-300: #eaebeb;
+  --neutral-200: #f7f7f8;
+  --neutral-100: #fcfcfc;
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--neutral-300);
+  font-weight: 400;
+  transition: background-color 0.3s ease-in-out;
+}
+
+body.dark-mode {
+  background-color: var(--primary-dark);
+}
+
+h1 {
+  letter-spacing: -0.05rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: var(--neutral-200);
+}
+::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  background-color: var(--primary-color);
+}

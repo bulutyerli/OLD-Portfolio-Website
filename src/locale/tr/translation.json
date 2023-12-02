@@ -1,0 +1,51 @@
+{
+  "header": {
+    "home": "Anasayfa",
+    "about": "Ben Kimim?",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "home": {
+    "p1": "Merhaba,",
+    "p2": "Ben",
+    "p3": "Front-En",
+    "p4": "Yazılım Uzmanıyım."
+  },
+  "projects": {
+    "title": "Projeler",
+    "projects": {
+      "tailwish": {
+        "desc": "Nuvola Coffee Shop'ta kullanıcılar ürünleri sepetlerine ekleyebilir ve satın alma işlemleri gerçekleştirebilir. Kimlik doğrulama sağlayıcısı olarak Supabase, veritabanı olarak PostgreSQL kullanılmaktadır. Alışveriş sepeti durumu Redux ile yönetilmektedir. Kullanıcılar, kargo adreslerini, şifrelerini veya e-posta adreslerini değiştirebilir ve unutulan şifrelerini yeniden talep edebilirler.",
+        "summary": "Tailwish, birçok özellikle donatılmış tamamen işlevsel bir evcil hayvan sahiplendirme platformudur."
+      },
+      "nuvolacoffee": {
+        "desc": "Nuvola Coffee Shop'da kullanıcılar ürünleri sepetlerine ekleyebilir ve satın alabilirler. Kimlik doğrulama sağlayıcısı olarak Supabase, veritabanı olarak PostgreSQL kullanılmaktadır. Alışveriş sepeti durumu Redux ile yönetilmektedir. Kullanıcılar kargo adreslerini, şifrelerini veya e-posta adreslerini değiştirebilirler, ayrıca unuttukları şifrelerini yeniden talep edebilirler.",
+        "summary": "Bir kahve markasına ait, online alışveriş özellikleri barından websitesi."
+      }
+    },
+    "detailButton": "Detaylar",
+    "visitLink": "Ziyaret Et"
+  },
+  "about": {
+    "title": "Ben Kimim?",
+    "content": {
+      "p1": "Merhaba, Ben Bulut Yerli, İstanbul, Türkiye'de yaşıyorum. Büyük havacılık şirketleri için lojistik ve depo yönetimi alanında 12 yıl geçirdim. Bu deneyim, kurumsal iş dünyasını ve havacılık endüstrisinin ortak bir özelliği olan yüksek baskı altında ve kısıtlı zamanda kritik görevleri nasıl yöneteceğimi öğretti. Aynı zamanda bu süre zarfında takım çalışması becerilerimi geliştirdim.",
+      "p2": "Ancak, bilgisayarlar ve yazılıma olan ilgim çocukluğuma dayanıyor. Bir süre için farklı bir yol izlemiş olsam da sonunda havacılıktan vazgeçip yazılım geliştirme uzmanı olarak kariyer yapma kararı aldım, ki bu alan her zaman kalbimde özel bir yer tuttu.",
+      "p3": "Bu yeni döneme, 2 yıllık bir üniversiteden bilgisayar programcığı bölümünü bitirerek başladım. Yazılım alanında kendimi sürekli olarak geliştiriyorum ve yazılım dünyasının çeşitli yönlerini keşfediyorum. Amacım yazılım sektörü aracılığıyla geçimimi sağlamaktan ziyade tutkulu olduğum ve severek yaptığım bu işte bir iz bırakmak."
+    }
+  },
+  "contact": {
+    "title": {
+      "p1": "İşbirliği yapmayı düşünüyor veya",
+      "p2": "aklınızda bir şey mi var?",
+      "p3": "Bana",
+      "p4": "Ulaşın!"
+    }
+  },
+  "form": {
+    "name": "Adınız",
+    "email": "E-Posta",
+    "message": "Mesajınız",
+    "button": "Gönder"
+  }
+}
