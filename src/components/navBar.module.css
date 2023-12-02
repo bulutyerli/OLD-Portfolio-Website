@@ -9,13 +9,15 @@
   top: 0;
   transition: background-color 0.3s ease-in-out;
   color: var(--primary-color);
+  width: 100%;
   max-width: 1440px;
-  width: 96%;
+  min-width: 200px;
 }
 
 .logo {
   width: 4.5rem;
   cursor: pointer;
+  padding-left: 1rem;
 }
 
 .navlinks ul {
@@ -44,6 +46,7 @@
 .menuContainer {
   display: flex;
   gap: 1rem;
+  padding-right: 1rem;
 }
 
 .darkMode {
@@ -58,7 +61,10 @@
   cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .navbar {
+    width: 100vw;
+  }
   .menu {
     display: block;
     border: none;
@@ -99,12 +105,6 @@
       background-color: var(--primary-color);
       color: var(--neutral-500);
     }
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    width: 95vw;
   }
 }
 
