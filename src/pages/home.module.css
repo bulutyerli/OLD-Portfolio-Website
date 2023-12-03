@@ -10,10 +10,9 @@
   font-size: 2rem;
   font-weight: bolder;
   color: var(--neutral-900);
-  padding-top: 2rem;
   line-height: 5rem;
   box-sizing: border-box;
-  min-height: 20rem;
+  min-height: 15rem;
 }
 
 .nameHighlight {
@@ -37,9 +36,13 @@
 @media (max-width: 768px) {
   .container {
     gap: 1rem;
+    min-width: 100vw;
+    align-items: center;
+    overflow: hidden;
   }
   .greeting {
-    padding-left: 1rem;
     font-size: 1.5rem;
+    align-self: flex-start;
+    padding-left: 2rem;
   }
 }
