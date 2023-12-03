@@ -57,7 +57,7 @@ function SocialMedia() {
         />
       </a>
       <a
-        href="https://www.linkedin.com/in/bulut-yerli-957270125/"
+        href="https://www.linkedin.com/in/bulutyerli/"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.socialLinkRight}

@@ -4,6 +4,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { useDarkMode } from "../contexts/DarkModeContext";
 import { useTranslation } from "react-i18next";
+import { FaDownload } from "react-icons/fa6";
 
 function AboutPage() {
   const ref = useRef(null);
@@ -40,6 +41,13 @@ function AboutPage() {
         <p>{t("content.p1")}</p>
         <p>{t("content.p2")}</p>
         <p>{t("content.p3")}</p>
+        <a
+          href="https://drive.google.com/uc?id=16Is-yIml1-waEEPySGVeUEa1F1sjT5ec&export=download"
+          download
+        >
+          {t("resume")}
+          <FaDownload />
+        </a>
       </div>
     </div>
   );

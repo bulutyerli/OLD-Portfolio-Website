@@ -88,12 +88,8 @@ function Home() {
               .pauseFor(100)
               .callFunction(() => handleFrontEnd())
               .pauseFor(100)
-              .typeString(`<br>${t("p3")}`)
-              .pauseFor(250)
-              .deleteChars(`${language === "tr" ? 8 : 9}`)
-              .pauseFor(100)
               .callFunction(() => handleBackEnd())
-              .typeString(`Full-Stack ${t("p4")}`)
+              .typeString(`<br/>Full-Stack ${t("p4")}`)
               .callFunction(() => handleArrows())
               .start();
           }}

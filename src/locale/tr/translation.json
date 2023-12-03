@@ -15,11 +15,11 @@
     "title": "Projeler",
     "projects": {
       "tailwish": {
-        "desc": "Tailwish evcil kedi ve köpek sahiplendirme sitesi. Kullanıcılar yeni sahiplendirme ilanları açabilirler. Topluluk bölümünde birbirlerine evcil hayvanlar hakkında sorular sorup, yanıtlayabilirler. Ayrıca beğendikleri ilanları favorilerine ekleyebilir ve ilan sahiplerine özel mesaj yollayabilirler. Türler bölümünde ise 60'dan fazla kedi ve 120'den fazla köpek türü hakkında fotoğraf ve bilgilere ulaşabilirler. Kullanıclar, kullanıcı adı ve şifreleri ile ya da Google hesapları ile giriş yapabilirler, kullanıcı isimlerini ve profil fotoğraflarını değiştirebilirler. Tüm yeni ilan ve sorular yayınlanmadan önce onay için admin'e gönderilir.",
+        "desc": "Tailwish kedi ve köpek sahiplendirme sitesi. Kullanıcılar yeni sahiplendirme ilanları açabilirler. Topluluk bölümünde birbirlerine evcil hayvanlar hakkında sorular sorup, yanıtlayabilirler. Ayrıca beğendikleri ilanları favorilerine ekleyebilir ve ilan sahiplerine özel mesaj yollayabilirler. Türler bölümünde ise 60'tan fazla kedi ve 120'den fazla köpek türü hakkında fotoğraf ve bilgilere ulaşabilirler. Kullanıcılar, kullanıcı adı ve şifreleri ile ya da Google hesapları ile giriş yapabilirler, kullanıcı isimlerini ve profil fotoğraflarını değiştirebilirler. Tüm yeni ilan ve sorular yayınlanmadan önce onay için yöneticiye gönderilir.",
         "summary": "Tailwish, birçok özellikle donatılmış tamamen işlevsel bir evcil hayvan sahiplendirme platformudur."
       },
       "nuvolacoffee": {
-        "desc": "Nuvola Coffee Shop'da kullanıcılar ürünleri sepetlerine ekleyebilir ve satın alabilirler. Kimlik doğrulama sağlayıcısı olarak Supabase, veritabanı olarak PostgreSQL kullanılmaktadır. Alışveriş sepeti durumu Redux ile yönetilmektedir. Kullanıcılar kargo adreslerini, şifrelerini veya e-posta adreslerini değiştirebilirler, ayrıca unuttukları şifrelerini yeniden talep edebilirler.",
+        "desc": "Nuvola Coffee Shop'ta kullanıcılar ürünleri alışveriş sepetlerine ekleyebilir ve satın alabilirler. Kimlik doğrulama sağlayıcısı olarak Supabase, veritabanı olarak PostgreSQL kullanılmaktadır. Alışveriş sepeti durumu Redux ile yönetilmektedir. Kullanıcılar kargo adreslerini, şifrelerini veya e-posta adreslerini değiştirebilirler, ayrıca unuttukları şifrelerini yeniden talep edebilirler.",
         "summary": "Bir kahve markasına ait, online alışveriş özellikleri barından websitesi."
       }
     },
@@ -32,7 +32,8 @@
       "p1": "Merhaba, Ben Bulut Yerli, İstanbul, Türkiye'de yaşıyorum. Büyük havacılık şirketleri için lojistik ve depo yönetimi alanında 12 yıl geçirdim. Bu deneyim, kurumsal iş dünyasını ve havacılık endüstrisinin ortak bir özelliği olan yüksek baskı altında ve kısıtlı zamanda kritik görevleri nasıl yöneteceğimi öğretti. Aynı zamanda bu süre zarfında takım çalışması becerilerimi geliştirdim.",
       "p2": "Ancak, bilgisayarlar ve yazılıma olan ilgim çocukluğuma dayanıyor. Bir süre için farklı bir yol izlemiş olsam da sonunda havacılıktan vazgeçip yazılım geliştirme uzmanı olarak kariyer yapma kararı aldım, ki bu alan her zaman kalbimde özel bir yer tuttu.",
       "p3": "Bu yeni döneme, 2 yıllık bir üniversiteden bilgisayar programcılığı bölümünü bitirerek başladım. Yazılım alanında kendimi sürekli olarak geliştiriyorum ve yazılım dünyasının çeşitli yönlerini keşfediyorum. Amacım yazılım sektörü aracılığıyla geçimimi sağlamaktan ziyade tutkulu olduğum ve severek yaptığım bu işte bir iz bırakmak."
-    }
+    },
+    "resume": "Özgeçmiş"
   },
   "contact": {
     "title": {
