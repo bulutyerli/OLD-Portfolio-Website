@@ -42,7 +42,7 @@ export default function ProjectsPage() {
         description={t("projects.tailwish.desc")}
         imageSrc={tailwishHome}
         languages={tailwishTechStack}
-        siteLink="https://tailwish.vercel.app/"
+        siteLink="https://tailwish.netlify.app/"
         githubLink="https://github.com/bulutyerli/tailwish"
       />
       <Projects
@@ -51,7 +51,7 @@ export default function ProjectsPage() {
         description={t("projects.nuvolacoffee.desc")}
         imageSrc={nuvolaCoffee}
         languages={nuvolaCoffeeTechStack}
-        siteLink="https://nuvola-coffee-shop.vercel.app/"
+        siteLink="https://nuvolacoffeeshop.netlify.app/"
         githubLink="https://github.com/bulutyerli/nuvola-coffee-shop"
       />
     </section>
