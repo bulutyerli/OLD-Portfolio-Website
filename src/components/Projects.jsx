@@ -60,9 +60,11 @@ export default function Projects({
         alt="project screenshot"
       />
       <div className={styles.links}>
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
-          GitHub <FiGithub />
-        </a>
+        {githubLink && (
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">
+            GitHub <FiGithub />
+          </a>
+        )}
         <a href={siteLink} target="_blank" rel="noopener noreferrer">
           {t("visitLink")}
           <FiExternalLink />

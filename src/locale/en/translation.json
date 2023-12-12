@@ -21,6 +21,10 @@
       "nuvolacoffee": {
         "desc": "At Nuvola Coffee Shop, users can add products to their shopping cart and make purchases. Supabase used as an authentication provider and PostgreSQL as the database. Shopping cart state managed with Redux. Users can change their shipping address, password or email address also ask for a new password if forgotten.",
         "summary": "An imaginary coffee shop, with online shopping features"
+      },
+      "denizweber": {
+        "desc": "The website I created for Deniz Weber Photography, belonging to a photographer living in Germany. Sanity was used as the content management system, and the site was also designed to provide services in three different languages: Turkish, English, and German.",
+        "summary": "A photographer's portfolio website."
       }
     },
     "detailButton": "Details",

@@ -21,6 +21,10 @@
       "nuvolacoffee": {
         "desc": "Nuvola Coffee Shop'ta kullanıcılar ürünleri alışveriş sepetlerine ekleyebilir ve satın alabilirler. Kimlik doğrulama sağlayıcısı olarak Supabase, veritabanı olarak PostgreSQL kullanılmaktadır. Alışveriş sepeti durumu Redux ile yönetilmektedir. Kullanıcılar kargo adreslerini, şifrelerini veya e-posta adreslerini değiştirebilirler, ayrıca unuttukları şifrelerini yeniden talep edebilirler.",
         "summary": "Bir kahve markasına ait, online alışveriş özellikleri barından websitesi."
+      },
+      "denizweber": {
+        "desc": "Deniz Weber Photography için hayata geçirdiğim web sitesi, Almanya'da yaşayan bir fotoğrafçıya ait. İçerik yönetim sistemi olarak Sanity kullanıldı ve aynı zamanda site, Türkçe, İngilizce ve Almanca olmak üzere üç farklı dilde hizmet vermek üzere tasarlandı.",
+        "summary": "Bir fotoğrafçı portfolyo sitesi."
       }
     },
     "detailButton": "Detaylar",
