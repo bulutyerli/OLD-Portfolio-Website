@@ -47,13 +47,13 @@ export default function ProjectsPage() {
         {t("title")}
       </h1>
       <Projects
-        title="Tailwish"
+        title="Patilerce.com"
         descSummary={t("projects.tailwish.summary")}
         description={t("projects.tailwish.desc")}
         imageSrc={tailwishHome}
         languages={tailwishTechStack}
-        siteLink="https://tailwish.netlify.app"
-        githubLink="https://github.com/bulutyerli/tailwish"
+        siteLink="https://www.patilerce.com"
+        githubLink="https://github.com/bulutyerli/patilerce"
       />
       <Projects
         title="Deniz Weber Photography"
