@@ -14,9 +14,9 @@
   "projects": {
     "title": "Projects",
     "projects": {
-      "tailwish": {
-        "desc": "Tailwish is a website where people can adopt cats or dogs. Users can create adoption listings, ask questions about pets, or answer community questions. Gain information about more than 60 cat and 120 dog breeds. Add listings to your 'favorites' or send direct messages to adopt listing owners. Users can log in via credentials or using their Google accounts, update their names, and profile pictures. All new listings and questions first go to the admin for approval.",
-        "summary": "Tailwish fully working pet adoption platform with many features."
+      "patilerce": {
+        "desc": "Patilerce is a website where people can adopt cats or dogs. Users can create adoption listings, ask questions about pets, or answer community questions. Gain information about more than 60 cat and 120 dog breeds. Add listings to your 'favorites' or send direct messages to adopt listing owners. Users can log in via credentials or using their Google accounts, update their names, and profile pictures. All new listings and questions first go to the admin for approval.",
+        "summary": "Patilerce fully working pet adoption platform with many features."
       },
       "nuvolacoffee": {
         "desc": "At Nuvola Coffee Shop, users can add products to their shopping cart and make purchases. Supabase used as an authentication provider and PostgreSQL as the database. Shopping cart state managed with Redux. Users can change their shipping address, password or email address also ask for a new password if forgotten.",

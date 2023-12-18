@@ -1,5 +1,5 @@
 import Projects from "../components/Projects";
-import tailwishHome from "../assets/projects/tailwish/tailwish-home.webp";
+import patilerceHome from "../assets/projects/patilerce/patilerce-home.webp";
 import nuvolaCoffee from "../assets/projects/nuvola-coffee-screenshots/nuvola-coffee-home.webp";
 import styles from "./projectsPage.module.css";
 import { useDarkMode } from "../contexts/DarkModeContext";
@@ -10,7 +10,7 @@ export default function ProjectsPage() {
   const { darkMode } = useDarkMode();
   const [t] = useTranslation("projects");
 
-  const tailwishTechStack = [
+  const patilerceTechStack = [
     "JavaScript",
     "HTML",
     "SCSS",
@@ -48,10 +48,10 @@ export default function ProjectsPage() {
       </h1>
       <Projects
         title="Patilerce.com"
-        descSummary={t("projects.tailwish.summary")}
-        description={t("projects.tailwish.desc")}
-        imageSrc={tailwishHome}
-        languages={tailwishTechStack}
+        descSummary={t("projects.patilerce.summary")}
+        description={t("projects.patilerce.desc")}
+        imageSrc={patilerceHome}
+        languages={patilerceTechStack}
         siteLink="https://www.patilerce.com"
         githubLink="https://github.com/bulutyerli/patilerce"
       />

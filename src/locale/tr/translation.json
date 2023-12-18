@@ -14,9 +14,9 @@
   "projects": {
     "title": "Projeler",
     "projects": {
-      "tailwish": {
-        "desc": "Tailwish kedi ve köpek sahiplendirme sitesi. Kullanıcılar yeni sahiplendirme ilanları açabilirler. Topluluk bölümünde birbirlerine evcil hayvanlar hakkında sorular sorup, yanıtlayabilirler. Ayrıca beğendikleri ilanları favorilerine ekleyebilir ve ilan sahiplerine özel mesaj yollayabilirler. Türler bölümünde ise 60'tan fazla kedi ve 120'den fazla köpek türü hakkında fotoğraf ve bilgilere ulaşabilirler. Kullanıcılar, kullanıcı adı ve şifreleri ile ya da Google hesapları ile giriş yapabilirler, kullanıcı isimlerini ve profil fotoğraflarını değiştirebilirler. Tüm yeni ilan ve sorular yayınlanmadan önce onay için yöneticiye gönderilir.",
-        "summary": "Tailwish, birçok özellikle donatılmış tamamen işlevsel bir evcil hayvan sahiplendirme platformudur."
+      "patilerce": {
+        "desc": "Patilerce kedi ve köpek sahiplendirme sitesi. Kullanıcılar yeni sahiplendirme ilanları açabilirler. Topluluk bölümünde birbirlerine evcil hayvanlar hakkında sorular sorup, yanıtlayabilirler. Ayrıca beğendikleri ilanları favorilerine ekleyebilir ve ilan sahiplerine özel mesaj yollayabilirler. Türler bölümünde ise 60'tan fazla kedi ve 120'den fazla köpek türü hakkında fotoğraf ve bilgilere ulaşabilirler. Kullanıcılar, kullanıcı adı ve şifreleri ile ya da Google hesapları ile giriş yapabilirler, kullanıcı isimlerini ve profil fotoğraflarını değiştirebilirler. Tüm yeni ilan ve sorular yayınlanmadan önce onay için yöneticiye gönderilir.",
+        "summary": "Patilerce, birçok özellikle donatılmış tamamen işlevsel bir evcil hayvan sahiplendirme platformudur."
       },
       "nuvolacoffee": {
         "desc": "Nuvola Coffee Shop'ta kullanıcılar ürünleri alışveriş sepetlerine ekleyebilir ve satın alabilirler. Kimlik doğrulama sağlayıcısı olarak Supabase, veritabanı olarak PostgreSQL kullanılmaktadır. Alışveriş sepeti durumu Redux ile yönetilmektedir. Kullanıcılar kargo adreslerini, şifrelerini veya e-posta adreslerini değiştirebilirler, ayrıca unuttukları şifrelerini yeniden talep edebilirler.",
