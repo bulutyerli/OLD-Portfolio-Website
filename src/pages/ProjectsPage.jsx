@@ -1,5 +1,5 @@
 import Projects from "../components/Projects";
-import patilerceHome from "../assets/projects/patilerce/patilerce-home.webp";
+import patilerceHome from "../assets/projects/patilerce/patilerce-home.png";
 import nuvolaCoffee from "../assets/projects/nuvola-coffee-screenshots/nuvola-coffee-home.webp";
 import styles from "./projectsPage.module.css";
 import { useDarkMode } from "../contexts/DarkModeContext";
