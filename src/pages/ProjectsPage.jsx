@@ -5,6 +5,7 @@ import styles from "./projectsPage.module.css";
 import { useDarkMode } from "../contexts/DarkModeContext";
 import { useTranslation } from "react-i18next";
 import denizweber from "../assets/projects/denizweber/denizweber.webp";
+import dwtranslation from "../assets/projects/denizweberTranslation/screenshot.webp";
 
 export default function ProjectsPage() {
   const { darkMode } = useDarkMode();
@@ -56,7 +57,15 @@ export default function ProjectsPage() {
         githubLink="https://github.com/bulutyerli/patilerce"
       />
       <Projects
-        title="Deniz Weber Photography"
+        title="denizweber.com"
+        descSummary={t("projects.denizweberTranslation.summary")}
+        description={t("projects.denizweberTranslation.desc")}
+        imageSrc={dwtranslation}
+        languages={denizWeberTechStack}
+        siteLink="https://www.denizweber.com"
+      />
+      <Projects
+        title="Photography Portfolio Website"
         descSummary={t("projects.denizweber.summary")}
         description={t("projects.denizweber.desc")}
         imageSrc={denizweber}
@@ -69,7 +78,7 @@ export default function ProjectsPage() {
         description={t("projects.nuvolacoffee.desc")}
         imageSrc={nuvolaCoffee}
         languages={nuvolaCoffeeTechStack}
-        siteLink="https://nuvolacoffeeshop.netlify.app"
+        siteLink="https://nuvolacoffeeshop.vercel.app"
         githubLink="https://github.com/bulutyerli/nuvola-coffee-shop"
       />
     </section>
